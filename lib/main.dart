@@ -10,13 +10,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Welcome to Flutter CI/CD Demo'),
         ),
-        body: RaisedButton(
-          padding: EdgeInsets.all(20),
-          onPressed: () {
-            print("Raised Button is pressed");
-          },
-          child: Text("Press Me!!"),
-        ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text("adadadasdsadadadasdasdad"),
+          ],
+        )
       ),
     );
   }
